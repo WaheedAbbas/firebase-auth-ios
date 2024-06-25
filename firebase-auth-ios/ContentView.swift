@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let loginService = LoginServiceFirebase()
+    let signUpService = SignupServiceFirebase()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
+        LoginScreenView(authViewModel: AuthViewModel(loginService: self.loginService, signUpService: self.signUpService))
         .padding()
     }
 }

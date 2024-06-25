@@ -31,6 +31,7 @@
 		0F75B9122C2AD708009EC545 /* firebase_auth_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F75B9112C2AD708009EC545 /* firebase_auth_iosUITestsLaunchTests.swift */; };
 		0F75B9212C2AD7E4009EC545 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F75B9202C2AD7E4009EC545 /* LoginScreenView.swift */; };
 		0F75B92E2C2ADBBA009EC545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F75B92D2C2ADBBA009EC545 /* AppDelegate.swift */; };
+		0FE80CF22C2AF0CE00CF96F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FE80CF12C2AF0CE00CF96F3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		0F75B9112C2AD708009EC545 /* firebase_auth_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebase_auth_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0F75B9202C2AD7E4009EC545 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
 		0F75B92D2C2ADBBA009EC545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0FE80CF12C2AF0CE00CF96F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		0F75B8F32C2AD705009EC545 /* firebase-auth-ios */ = {
 			isa = PBXGroup;
 			children = (
+				0FE80CF12C2AF0CE00CF96F3 /* GoogleService-Info.plist */,
 				0F0A74922C2AE143003F35C1 /* textfields-views */,
 				0F75B91F2C2AD759009EC545 /* signup */,
 				0F75B91E2C2AD752009EC545 /* login */,
@@ -313,6 +316,7 @@
 			files = (
 				0F75B8FC2C2AD707009EC545 /* Preview Assets.xcassets in Resources */,
 				0F75B8F92C2AD707009EC545 /* Assets.xcassets in Resources */,
+				0FE80CF22C2AF0CE00CF96F3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
